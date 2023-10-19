@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #3F2860;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only all and (max-width: 768px) {}
+
+#wrapper {
+    padding: 0%;
+    background-color: #F5F5F5;
+    min-width: 0%;
+    margin: 0%;
+    width: 100%;
+
+    /*   margin-left: auto;
+    margin-right: auto;
+
+    min-width: 1200px;
+    max-width: 1480px;
+     max-height:1200px;
+
+    margin-bottom: 10%;
+*/
+}
+
+
+/*
+Configure an h1 element selector. Set the font size to 2em, top padding to 0.25em, left padding to 1.5em and width to 85%. Also configure centered text.
+*/
+
+
+h1 {
+
+    padding-top: 0.25em;
+    background-color: #9BC1C2;
+    background-image: url(lilyheader.jpg);
+
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100px;
+    padding-top: 1px;
+    padding-left: 2em;
+    /*Configure 50px top padding and 2em left padding.*/
+}
+
+
+nav {
+    width: auto;
+    background-color: inherit;
+    float: none;
+    padding-left: 2em;
+    font-weight: bold;
+    /*text-align: center;*/
+    /*Modify the style rules for the nav element selector. Configure 1em padding.*/
+
+}
+
+nav a {
+    width: 23%;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: 3px outset #cccccc;
+    font-weight: bold;
+    padding: 0.2em;
+    margin-left: 0.3em;
+    float: left
+        /*
+Configure styles for an id selector named hero. Set text-align to center.*/
+}
+
+nav a:link {
+    color: #3F2860;
+}
+
+nav a:visited {
+    color: #497777;
+}
+
+nav a:hover {
+    color: #A26100;
+    border: 3px inset #333333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+img {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#hero {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#main {
+    margin: 0px;
+    font-size: 90%;
+    /*Configure styles for the main element selector. Set left and right padding to 2em. You may need to nudge Internet Explorer to display the page as intended by adding the display: block; declaration (see Chapter 6).*/
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.floatleft {
+
+    float: left;
+    margin-right: 4em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+
+}
+
+
+.clear {
+    clear: both;
+
+}
+
+h2,
+h3,
+p,
+dl {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+main ul {
+    margin-left: 2em;
+
+}
+
+.clear {
+    padding-left: 2em;
+}
+
+table {
+    width: 60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+
+}
+
+
+td,
+th {
+    padding: 5px;
+    border: 1px solid #3F2860;
+}
+
+tr:nth-child(EVEN) {
+    background-color: #9BC1C2;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 120%;
+    margin: 1em;
+    display: table-caption;
+    text-align: center;
+}
+
+
+div footer {
+    text-align: center;
+    background-color: #9BC1C2;
+    font-weight: italic;
+    font-size: .60em;
+    /*modify the style rules for the footer element selector. Configure 1em padding.*/
+    padding: 1em;
+
+}
